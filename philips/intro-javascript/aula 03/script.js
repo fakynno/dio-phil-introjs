@@ -115,8 +115,8 @@ console.log(meuObjeto.arrayQuarto[2]);
 console.log('acessando os elementos do objeto interno pelo indice');
 console.log(meuObjeto.objetoInterno);
 
-// acessando um elemento especifico do objeto interno pelo indice
-console.log('acessando os elementos do objeto interno pelo indice');
+// acessando um elemento especifico do objeto interno pelo nome do elemento
+console.log('acessando os elementos do objeto interno pelo nome do elemento');
 console.log(meuObjeto.objetoInterno.profissao);
 console.log('============================');
 
