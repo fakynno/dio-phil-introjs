@@ -73,3 +73,21 @@ console.log('Resto de 5 dividido por 2 => ' + modulo);
 // Potenciacao
 var potencia = 2 ** 10;
 console.log('Resultado da potenciacao => ' + potencia);
+
+// OPERADORES RELACIONAIS
+
+// maior que
+var maiorQue = 10 > 5;
+console.log('10 é maior que 5? ' + maiorQue);
+
+// menor que
+var menorQue = 10 < 5;
+console.log('10 é menor que 5? ' + menorQue);
+
+// maior ou igual a
+var maiorOuIgual = 10 >= 7;
+console.log('10 é maior ou igual a 7? ' + maiorOuIgual);
+
+// menor ou igual a
+var menorOuIgual = 10 <= 7;
+console.log('10 é menor ou igual a 7? ' + menorOuIgual);
