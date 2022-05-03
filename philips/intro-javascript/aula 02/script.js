@@ -39,3 +39,37 @@ function escopoLocal() {
 }
 
 escopoLocal();
+
+// exemplos de comparacao
+var comparacao = '0' == 0 ;
+console.log(comparacao);
+
+// exemplos de comparacao identica
+var comparacaoIdentica = '0' === 0 ;
+console.log(comparacaoIdentica);
+
+// OPERADORES ARITMETICOS
+
+// Adicao
+var soma = 12 + 46;
+console.log('Valor da soma: ' + soma);
+
+// Subtracao
+var subtracao = 46 - 12;
+console.log('Valor da subtracao: ' + subtracao);
+
+// Multiplicacao
+var multiplicacao = 46 * 12;
+console.log('Valor da multiplicacao: ' + multiplicacao);
+
+// Divisao
+var divisao = 46 / 12;
+console.log('Valor da divisao real: ' + divisao);
+
+// Divisao inteira (ou resto)
+var modulo = 5 % 2;
+console.log('Resto de 5 dividido por 2 => ' + modulo);
+
+// Potenciacao
+var potencia = 2 ** 10;
+console.log('Resultado da potenciacao => ' + potencia);
