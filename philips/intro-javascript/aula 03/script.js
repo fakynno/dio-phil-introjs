@@ -66,3 +66,56 @@ console.log(outroArray);
 // uso do slice --> retorna uma parte de um array existente
 let novoArray = outroArray.slice(1, 3);
 console.log(novoArray);
+
+console.log('============================');
+
+// UTILIZANDO OBJETOS
+
+let meuObjeto = {
+    string: 'Fabio Aquino',
+    number: 40,
+    boolean: true,
+    arrayCozinha: [
+        'faca',
+        'garfo',
+        'colher',
+        'prato',
+        'guardanapo'
+    ],
+    arrayQuarto: [
+        'cama',
+        'coberta',
+        'travesseiro',
+        'chinelo',
+        'colchão',
+        'lençol',
+        'tomada',
+    ],
+    objetoInterno: {
+        nome: 'fabio',
+        sobrenome: 'Aquino',
+        profissao: 'Programador',
+        salario: 1752.35
+    }
+}
+
+// acessando os elementos do objeto principal pelo tipo
+console.log('acessando os elementos do objeto principal pelo tipo');
+console.log(meuObjeto.string);
+
+// acessando os elementos do objeto cozinha pelo indice
+console.log('acessando os elementos do objeto cozinha pelo indice');
+console.log(meuObjeto.arrayCozinha[4]);
+
+// acessando os elementos do objeto quarto pelo indice
+console.log('acessando os elementos do objeto quarto pelo indice');
+console.log(meuObjeto.arrayQuarto[2]);
+
+// acessando todos os elementos do objeto interno pelo indice
+console.log('acessando os elementos do objeto interno pelo indice');
+console.log(meuObjeto.objetoInterno);
+
+// acessando um elemento especifico do objeto interno pelo indice
+console.log('acessando os elementos do objeto interno pelo indice');
+console.log(meuObjeto.objetoInterno.profissao);
+
