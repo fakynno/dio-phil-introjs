@@ -118,4 +118,35 @@ console.log(meuObjeto.objetoInterno);
 // acessando um elemento especifico do objeto interno pelo indice
 console.log('acessando os elementos do objeto interno pelo indice');
 console.log(meuObjeto.objetoInterno.profissao);
+console.log('============================');
 
+
+// DESESTRUTURACAO DE OBJETOS
+
+// podemos selecionar o tipo desejado e jogar dentro de uma variavel,
+// para depois chamar seu valor
+
+var texto = meuObjeto.string;
+console.log(texto);
+console.log('============================');
+
+var texto2 = meuObjeto.objetoInterno;
+console.log(texto2);
+console.log('============================');
+
+// outra forma de desestruturar é declarar uma chave vazia
+// e atribuir o objeto a ela
+// dentro das chaves podemos colocar o que quisermos
+
+var { string, number } = meuObjeto;
+console.log(string, number);
+console.log('============================');
+
+
+var { string, arrayCozinha } = meuObjeto;
+console.log(arrayCozinha, string);
+console.log('============================');
+
+
+var { arrayCozinha, arrayQuarto, objetoInterno } = meuObjeto;
+console.log(arrayCozinha, objetoInterno, arrayQuarto);
