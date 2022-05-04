@@ -26,31 +26,51 @@ function calculadora() {
     function soma() {
         resultado = numero1 + numero2;
         alert(`${numero1} + ${numero2} = ${resultado}`);
+        novaOperacao();
     }
 
     function subtracao() {
         resultado = numero1 - numero2;
         alert(`${numero1} - ${numero2} = ${resultado}`);
+        novaOperacao();
     }
 
     function multiplicacao() {
         resultado = numero1 * numero2;
         alert(`${numero1} * ${numero2} = ${resultado}`);
+        novaOperacao();
     }
 
     function divisaoReal() {
         resultado = numero1 / numero2;
         alert(`${numero1} / ${numero2} = ${resultado}`);        
+        novaOperacao();
     }
 
     function divisaoInteira() {
         resultado = numero1 % numero2;
         alert(`O resto da divisão entre ${numero1} e ${numero2} é igual a ${resultado}`);
+        novaOperacao();
     }
 
     function potenciacao() {
         resultado = numero1 ** numero2;
         alert(`${numero1} elevado a ${numero2} é igual a ${resultado}`);
+        novaOperacao();
+    }
+
+    function novaOperacao() {
+
+        let opcao = prompt('Deseja fazer outra operação?\n 1 - Sim\n 2 - Não');
+
+        if (opcao == 1) {
+            calculadora();
+        } else if (opcao == 2) {
+            alert('Encerrando o programa...');
+        } else {
+            alert('Digite uma opção válida!');
+            novaOperacao();
+        }
     }
 
  }
