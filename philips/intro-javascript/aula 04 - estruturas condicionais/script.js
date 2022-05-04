@@ -44,3 +44,18 @@ switch (placar) {
         console.log('ninguem ganhou');
         break;
 }
+
+// USO DO FOR TRADICIONAL
+
+let novoArray = ['valor 1','valor 2','valor 3','valor 4','valor 5'];
+
+let objetoNovo = { 
+    propriedade1: 'valor1',
+    propriedade2: 'valor2',
+    propriedade3: 'valor3'
+}
+
+// percorrendo o laco
+for (let index = 0; index < novoArray.length; index++) {
+    console.log(index);
+}
