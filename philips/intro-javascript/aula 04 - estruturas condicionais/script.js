@@ -73,3 +73,36 @@ for (let i in novoArray) {
 for (i in objetoNovo) {
     console.log(i);
 }
+
+console.log('********************');
+
+// USO DO FOR/OFF
+// executa repeticao a partir de valor
+
+// com array
+for (i of novoArray) {
+    console.log(i);
+}
+
+console.log('********************');
+
+// com object
+for (i of objetoNovo.propriedade3) {
+    console.log(i);
+}
+
+// USO DO LACO WHILE
+var a = 0;
+while (a < 10) {
+    a++;
+    console.log(a);
+}
+
+console.log('********************');
+
+do {
+    a++;
+    console.log(a);
+} while (a < 10);
+
+console.log('********************');
