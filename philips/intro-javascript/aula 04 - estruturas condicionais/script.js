@@ -59,3 +59,17 @@ let objetoNovo = {
 for (let index = 0; index < novoArray.length; index++) {
     console.log(index);
 }
+
+console.log('********************');
+
+// USO DO FOR/IN
+
+// com array
+for (let i in novoArray) {
+    console.log(i);
+}
+
+// com object
+for (i in objetoNovo) {
+    console.log(i);
+}
