@@ -48,3 +48,27 @@ function getAdmins(perfil) {
 }
 
 console.log(getAdmins(usuarios));
+
+console.log('********************');
+
+// VERSAO DO INSTRUTOR
+
+function getAdmins2(map) {
+    let admins = [];
+
+    for ([key, value] of map) {
+        if (value === 'Admin') {
+            admins.push(key);
+        }
+    }
+    return admins;
+}
+
+const usuarios2 = new Map();
+
+usuarios2.set('Marcelino','Admin');
+usuarios2.set('Rodrigo','User');
+usuarios2.set('Julia','Admin');
+usuarios2.set('Rafaela','User');
+
+console.log(getAdmins2(usuarios2));
